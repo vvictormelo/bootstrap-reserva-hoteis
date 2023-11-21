@@ -6,13 +6,17 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="sinal-do-hotel.ico" type="image/x-icon">
-    <title>Hotel Tranquil Bay</title>
+    <title>FindPlaces</title>
 </head>
 <body>
+    <!-- NavBar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
-        <div class="container pt-1 pb-1">
-          <span class="navbar-brand mb-0 h1 fw-bold">Hotel Tranquil Bay</span>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <div class="container-fluid pt-1 pb-1">
+            <a class="navbar-brand pb-1" href="index.html">
+                <img src="./sinal-do-hotel.ico" alt="Logo" width="30" height="24" class="d-inline-block align-text-top ">
+                <span class="navbar-brand mb-0 h1 fw-bold">FindPlaces</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <svg xmlns="http://www.w3.org/2000/svg" width="1.5rem" height="1.5rem" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
                     <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
                 </svg>              
@@ -32,6 +36,7 @@
         </div>
     </nav>
 
+    <!-- Banner -->
     <main class="w-100 min-vh-100 background-banner d-flex align-items-center">
         <div class="container">
             <div class="card rounded-1 border-0 p-1 pt-4 pb-4 p-lg-4 pb-md-0 pb-lg-0 shadow">
@@ -69,6 +74,73 @@
                         </div>
                     </form>
                 </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Destaques -->
+    <main class="w-100 pb-5 pt-lg-4 pb-lg-5">
+        <div class="container pt-5 pb-2 pt-lg-5 pb-lg-0">
+            <h1 class="fs-4 text-center text-lg-start mb-5 fw-bold">Hotéis e Pousadas em destaque</h1>
+        </div>
+
+        <!-- Cards -->
+        <div class="row mb-4">
+            <div class="col-12 col-md-12 col-lg-4 mb-5">
+                <div class="card shadow border-0">
+                    <div class="position-relative">
+                        <img src="./assets/img/hoteis/hotel-1.jpeg" alt="" class="card-img-top">
+                        <span class="position-absolute bottom-0 right-0 bg-color-orange ps-2 pe-2 pt-1 pb-1">R$: 669,00</span>
+                    </div>
+                    <div class="card-body p-3">
+                        <h5 class="card-title mb-1">Hotel Califórnia</h5>
+                        <p class="text-muted">Porto Seguro/BA</p>
+                        <p class="card-text">
+                            Hotel próximo de várias lindas praias, com várias atrações turísticas da região bahiana.
+                        </p>
+                        <a class="btn btn-orange rounded-0 w-100" href="http://">Verificar disponibilidade</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-12 col-lg-4 mb-5">
+                <div class="card shadow border-0">
+                    <div class="position-relative">
+                        <img src="./assets/img/hoteis/hotel-2.jpeg" alt="" class="card-img-top">
+                        <span class="position-absolute bottom-0 right-0 bg-color-orange ps-2 pe-2 pt-1 pb-1">R$: 759,00</span>
+                    </div>
+                    <div class="card-body p-3">
+                        <h5 class="card-title mb-1">Hotel Paris Germain</h5>
+                        <p class="text-muted">Ilhéus/BA</p>
+                        <p class="card-text">
+                            Se você procura um hotel totalmente luxuoso e tecnologia, esse é o ideal para você e sua família.
+                        </p>
+                        <a class="btn btn-orange rounded-0 w-100" href="http://">Verificar disponibilidade</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-12 col-lg-4 mb-5">
+                <div class="card shadow border-0">
+                    <div class="position-relative">
+                        <img src="./assets/img/hoteis/hotel-3.jpeg" alt="" class="card-img-top">
+                        <span class="position-absolute bottom-0 right-0 bg-color-orange ps-2 pe-2 pt-1 pb-1">R$: 979,00</span>
+                    </div>
+                    <div class="card-body p-3">
+                        <h5 class="card-title mb-1">Pousada Atlântica</h5>
+                        <p class="text-muted">Rio de Janeiro/RJ</p>
+                        <p class="card-text">
+                            Nossos quartos estão prontos para você descansar o corpo e relaxar a mente.
+                        </p>
+                        <a class="btn btn-orange rounded-0 w-100" href="http://">Verificar disponibilidade</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 d-flex justify-content-center">
+                <a href="http://" class="btn btn-orange-outline ps-4 pe-4">Visualizar todos</a>
             </div>
         </div>
     </main>

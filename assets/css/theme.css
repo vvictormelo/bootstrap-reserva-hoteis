@@ -3,6 +3,8 @@
 @import url('./buttons.css');
 @import url('./background.css');
 @import url('./inputs.css');
+@import url('./position.css');
+@import url('./colors.css');
 
 :root {
     --bg-orange:        #F46A05;
