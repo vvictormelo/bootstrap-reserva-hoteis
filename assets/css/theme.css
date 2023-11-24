@@ -5,6 +5,8 @@
 @import url('./inputs.css');
 @import url('./position.css');
 @import url('./colors.css');
+@import url('./carousel.css');
+@import url('./avaliacoes.css');
 
 :root {
     --bg-orange:        #F46A05;
