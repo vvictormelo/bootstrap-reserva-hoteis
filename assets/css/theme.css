@@ -8,6 +8,7 @@
 @import url('./carousel.css');
 @import url('./avaliacoes.css');
 @import url('./utils.css');
+@import url('./card.css');
 
 :root {
     --bg-orange:        #F46A05;
